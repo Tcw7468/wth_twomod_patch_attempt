@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_Craft_MiningModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_Craft_NursingArm"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_Craft_CraftingModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_Craft_GastroModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_Craft_MaintainingArm"]</xpath>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_InstallMiningModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_InstallNursingArm"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_InstallCraftingModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_InstallGastroModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "WTHExCore_InstallMaintainingArm"]</xpath>
+			</li>
+
+
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "WTHExCore_MiningModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "WTHExCore_NursingArm"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "WTHExCore_CraftingModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "WTHExCore_GastroModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "WTHExCore_MaintainingArm"]</xpath>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[defName = "WTHExCore_MiningModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[defName = "WTHExCore_NursingArm"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[defName = "WTHExCore_CraftingModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[defName = "WTHExCore_GastroModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/HediffDef[defName = "WTHExCore_MaintainingArm"]</xpath>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName = "WTHExCore_NursingArm"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName = "WTHExCore_GastroModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName = "WTHExCore_MaintainingArm"]</xpath>
+			</li>
+
+
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="WTH_TableMechanoidWorkshop"]/recipes/li[text()="WTHExCore_Craft_MiningModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="WTH_TableMechanoidWorkshop"]/recipes/li[text()="WTHExCore_Craft_NursingArm"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="WTH_TableMechanoidWorkshop"]/recipes/li[text()="WTHExCore_Craft_CraftingModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="WTH_TableMechanoidWorkshop"]/recipes/li[text()="WTHExCore_Craft_GastroModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="WTH_TableMechanoidWorkshop"]/recipes/li[text()="WTHExCore_Craft_MaintainingArm"]</xpath>
+			</li>
+			
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@ParentName="BaseMechanoid" or (race/fleshType = "Mechanoid" and not (@ParentName="BaseMechanoid") and not (@Name="BaseMechanoid"))]/recipes/li[text()="WTHExCore_InstallMiningModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@ParentName="BaseMechanoid" or (race/fleshType = "Mechanoid" and not (@ParentName="BaseMechanoid") and not (@Name="BaseMechanoid"))]/recipes/li[text()="WTHExCore_InstallNursingArm"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@ParentName="BaseMechanoid" or (race/fleshType = "Mechanoid" and not (@ParentName="BaseMechanoid") and not (@Name="BaseMechanoid"))]/recipes/li[text()="WTHExCore_InstallCraftingModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@ParentName="BaseMechanoid" or (race/fleshType = "Mechanoid" and not (@ParentName="BaseMechanoid") and not (@Name="BaseMechanoid"))]/recipes/li[text()="WTHExCore_InstallGastroModule"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[@ParentName="BaseMechanoid" or (race/fleshType = "Mechanoid" and not (@ParentName="BaseMechanoid") and not (@Name="BaseMechanoid"))]/recipes/li[text()="WTHExCore_InstallMaintainingArm"]</xpath>
+			</li>
+
+
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "WTHExCore_RescueModule"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/MechModuleTierTwo</texPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "WTHExCore_HusbandryArm"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/MechModuleTierTwo</texPath>
+		</value>
+	</Operation>
+
+</Patch>
